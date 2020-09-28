@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: Most people think Kaggle is critical to data-science. No it's not.
-categories: [markdown] [kaggle]
+categories: [kaggle]
 title: Problem-Solving in Data Science
 ---
 
