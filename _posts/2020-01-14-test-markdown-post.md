@@ -1,3 +1,16 @@
+
+https://github.com/fastai/fastpages#writing-blog-posts-with-jupyter
+
+
+https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/hide_input/readme.html
+
+https://jekyllrb.com/docs/posts/
+
+https://probot.github.io/
+
+
+
+
 ---
 toc: true
 layout: post
