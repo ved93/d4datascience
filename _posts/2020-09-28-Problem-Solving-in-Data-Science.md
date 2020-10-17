@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: Most people think Kaggle is critical to data-science. No it's not. Its only a good to have.
-categories: [kaggle, notes]
+categories: [kaggle, notes, learning]
 title: Problem-Solving in Data Science
 ---
 
