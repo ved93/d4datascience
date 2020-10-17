@@ -4,8 +4,8 @@
         "post0": {
             "title": "Problem-Solving in Data Science",
             "content": "Few years back, when I started my journey in data-science, I was fascinated by Kaggle. I used to devote my time there. I was overwhelmed by the knowledge and problems. I wanted to be competitive and then kaggle shows their leaderboard and prize. You win and make a name. I used to have casual discussions with my manager on variety of topics. One day I asked my manager which things are most important in data science and what’s his opinion about Kaggle. . He said “Problem Solving is one of the most important skill in data scientist. As far as kaggle is concerned I dont think Kaggle helps you to become a good problem solver.If you know Xs and Y then almost anyone can solve the problem. Most important part is defining your Xs and Y” . After sometime I gave a thought about it and he was right. In my experience, most of the problems I solved was the result of the way problem defined. Most often, Its almost never a question to build a most accurate model, rather it is solving the problem. Kaggle comes in handy to know different approaches to solve the problems. But its not a critical to your success in data-science career. . Read below blog to get more perspective on this . Stitchfix: comfortable with ambiguity and successfully framing problems .",
-            "url": "https://ved93.github.io/d4datascience/kaggle/notes/2020/09/28/Problem-Solving-in-Data-Science.html",
-            "relUrl": "/kaggle/notes/2020/09/28/Problem-Solving-in-Data-Science.html",
+            "url": "https://ved93.github.io/d4datascience/kaggle/notes/learning/2020/09/28/Problem-Solving-in-Data-Science.html",
+            "relUrl": "/kaggle/notes/learning/2020/09/28/Problem-Solving-in-Data-Science.html",
             "date": " • Sep 28, 2020"
         }
         
