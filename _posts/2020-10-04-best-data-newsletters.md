@@ -22,6 +22,7 @@ A few blogs which I regularly check out and highly informative.
 
 
 
+
 Personaly I didnot find higher ratio of good articles in towardsdatascience medium blog.
 
 *Disclaimer: This is not sponsored article.Its my personal preference*
