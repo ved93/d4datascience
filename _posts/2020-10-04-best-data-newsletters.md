@@ -1,5 +1,6 @@
 ---
 toc: true
+comments: true
 layout: post
 description: Its very hard to keep up with new information and content in data science.
 categories: [blogs, data science, ]
@@ -29,7 +30,7 @@ Personaly I didnot find higher ratio of good articles in towardsdatascience medi
 
 
 <script src="https://utteranc.es/client.js"
-        repo="d4datascience"
+        repo="ved93/d4datascience"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
