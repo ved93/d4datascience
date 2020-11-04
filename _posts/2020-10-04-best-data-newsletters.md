@@ -28,11 +28,11 @@ Personaly I didnot find higher ratio of good articles in towardsdatascience medi
 
 *Disclaimer: This is not a sponsored article.Its my personal preference*
 
-
+<!-- 
 <script src="https://utteranc.es/client.js"
         repo="ved93/d4datascience"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script>
+</script> -->
