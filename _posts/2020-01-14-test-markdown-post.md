@@ -1,3 +1,12 @@
+---
+toc: true
+layout: post
+hide: true 
+description: A minimal example of using markdown with fastpages.
+categories: [markdown]
+title: An Example Markdown Post
+---
+
 
 https://github.com/fastai/fastpages#writing-blog-posts-with-jupyter
 
@@ -11,14 +20,8 @@ https://probot.github.io/
 
 
 
----
-toc: true
-layout: post
-hide: true 
-description: A minimal example of using markdown with fastpages.
-categories: [markdown]
-title: An Example Markdown Post
----
+
+
 # Example Markdown Post
 
 ## Basic setup
