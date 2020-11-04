@@ -29,7 +29,7 @@ Personaly I didnot find higher ratio of good articles in towardsdatascience medi
 
 
 <script src="https://utteranc.es/client.js"
-        repo="https://github.com/ved93/d4datascience.git"
+        repo="d4datascience"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
