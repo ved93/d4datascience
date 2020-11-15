@@ -7,6 +7,19 @@ categories: [markdown]
 title: An Example Markdown Post
 ---
 
+# for enabling comments
+https://utteranc.es/
+
+<script src="https://utteranc.es/client.js"
+        repo="ved93/d4datascience"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+
 
 https://github.com/fastai/fastpages#writing-blog-posts-with-jupyter
 
