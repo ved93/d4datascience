@@ -5,11 +5,12 @@ hide : false
 layout: post
 description: How to get outcomes from data-science teams.
 categories: [team, data science, ]
-title: what is Agile data science?
+title: What is Agile Data-Science?
 ---
 
-You must be wondering what is agile data science. People working in engineering have known this 'agile' term from a long time. People have figured out agile methodology is best way to get something done in engineering.
-What is Agile methodology?
+You must be wondering what is agile data science. People working in engineering have known this 'agile' term from a long time. People have figured out agile methodology is best way to get something done in engineering.   
+
+What is Agile methodology?    
 AGILE methodology is a practice that promotes continuous iteration of development and testing throughout the software development lifecycle of the project. In the Agile model, both development and testing activities are concurrent, unlike the Waterfall model.
 
 Agile methodology can't be fully implemented in data science. There are some stark differences between software development and data science.  
