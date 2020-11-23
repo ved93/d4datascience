@@ -4,17 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Some Data Musings | Some Thoughts useful to some, useless to many.</title>
+<title>Why multi-collinearity is important? | Some Data Musings</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Some Data Musings" />
+<meta property="og:title" content="Why multi-collinearity is important?" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Some Thoughts useful to some, useless to many." />
-<meta property="og:description" content="Some Thoughts useful to some, useless to many." />
-<link rel="canonical" href="https://ved93.github.io/d4datascience/" />
-<meta property="og:url" content="https://ved93.github.io/d4datascience/" />
+<meta name="description" content="Infering from machine learning model." />
+<meta property="og:description" content="Infering from machine learning model." />
+<link rel="canonical" href="https://ved93.github.io/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html" />
+<meta property="og:url" content="https://ved93.github.io/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html" />
 <meta property="og:site_name" content="Some Data Musings" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-23T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"Some Thoughts useful to some, useless to many.","url":"https://ved93.github.io/d4datascience/","@type":"WebSite","headline":"Some Data Musings","name":"Some Data Musings","@context":"https://schema.org"}</script>
+{"description":"Infering from machine learning model.","url":"https://ved93.github.io/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html","@type":"BlogPosting","headline":"Why multi-collinearity is important?","dateModified":"2020-06-23T00:00:00-05:00","datePublished":"2020-06-23T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://ved93.github.io/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/d4datascience/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://ved93.github.io/d4datascience/feed.xml" title="Some Data Musings" /><link rel="shortcut icon" type="image/x-icon" href="/d4datascience/images/favicon.ico"><link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
 <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
@@ -66,49 +68,55 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><h1 id="posts">Posts</h1>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Why multi-collinearity is important?</h1><p class="page-description">Infering from machine learning model.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-06-23T00:00:00-05:00" itemprop="datePublished">
+        Jun 23, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
 
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/d4datascience/categories/#applied-ml">applied-ml</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/d4datascience/categories/#probability">probability</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/d4datascience/categories/#maths">maths</a>
+        
+      
+      </p>
+    
 
-  
+    </header>
 
-  <!-- Hide posts if front matter flag hide:true -->
-  
-  
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+</ul><p>The law of large numbers has a central role in probability and statistics.  There are two main versions of the law of large numbers. They are called the weak and strong laws of the large numbers. The difference between them is mostly theoretical.</p>
 
-  <!-- Sort posts by rank, then date -->
-  
-  
-  
+<p>For i.i.d. random variables X1,X2,…,Xn, the sample mean, denoted by Mn, is defined as
+=(X1+X2+…+Xn)/n</p>
 
- 
-  
+<p><img src="/d4datascience/images/logo.png" alt="" title="fast.ai's logo"></p>
 
-   <!-- Assemble final sorted posts array -->
-  
-  <ul class="post-list"><li><h3>
-    <a class="post-link" href="/d4datascience/blogs/data%20science/2020/10/04/best-data-newsletters.html">
-    The Best Blogs and Newsletters in Data Science
-    </a>
-</h3><p class="post-meta-description">Its very hard to keep up with new information and content in data science.</p><p class="post-meta">Oct 4, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/d4datascience/kaggle/notes/learning/2020/09/28/Problem-Solving-in-Data-Science.html">
-    Problem-Solving in Data Science
-    </a>
-</h3><p class="post-meta-description">Most people think Kaggle is critical to data-science. No it's not. Its only a good to have.</p><p class="post-meta">Sep 28, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/d4datascience/team/data%20science/2020/08/13/agile-data-science.html">
-    What is Agile Data-Science?
-    </a>
-</h3><p class="post-meta-description">How to get outcomes from data-science teams.</p><p class="post-meta">Aug 13, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html">
-    Why multi-collinearity is important?
-    </a>
-</h3><p class="post-meta-description">Infering from machine learning model.</p><p class="post-meta">Jun 23, 2020</p>
-</li></ul>
-
-    </div>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="ved93/d4datascience"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html" hidden></a>
+</article>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/d4datascience/"></data>
