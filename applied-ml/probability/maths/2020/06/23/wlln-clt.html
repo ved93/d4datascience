@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Why multi-collinearity is important? | Some Data Musings</title>
+<title>What is law of large numbers? | Some Data Musings</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Why multi-collinearity is important?" />
+<meta property="og:title" content="What is law of large numbers?" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Infering from machine learning model." />
-<meta property="og:description" content="Infering from machine learning model." />
+<meta name="description" content="Why sample mean is a good way to estimate true mean." />
+<meta property="og:description" content="Why sample mean is a good way to estimate true mean." />
 <link rel="canonical" href="https://ved93.github.io/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html" />
 <meta property="og:url" content="https://ved93.github.io/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html" />
 <meta property="og:site_name" content="Some Data Musings" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-06-23T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"Infering from machine learning model.","url":"https://ved93.github.io/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html","@type":"BlogPosting","headline":"Why multi-collinearity is important?","dateModified":"2020-06-23T00:00:00-05:00","datePublished":"2020-06-23T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://ved93.github.io/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html"},"@context":"https://schema.org"}</script>
+{"description":"Why sample mean is a good way to estimate true mean.","url":"https://ved93.github.io/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html","@type":"BlogPosting","headline":"What is law of large numbers?","dateModified":"2020-06-23T00:00:00-05:00","datePublished":"2020-06-23T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://ved93.github.io/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/d4datascience/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://ved93.github.io/d4datascience/feed.xml" title="Some Data Musings" /><link rel="shortcut icon" type="image/x-icon" href="/d4datascience/images/favicon.ico"><link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
 <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
@@ -71,7 +71,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Why multi-collinearity is important?</h1><p class="page-description">Infering from machine learning model.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-06-23T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">What is law of large numbers?</h1><p class="page-description">Why sample mean is a good way to estimate true mean.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-06-23T00:00:00-05:00" itemprop="datePublished">
         Jun 23, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -100,14 +100,19 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-</ul><p>The law of large numbers has a central role in probability and statistics.  There are two main versions of the law of large numbers. They are called the weak and strong laws of the large numbers. The difference between them is mostly theoretical.</p>
+</ul><p>The law of large numbers has a central role in probability and statistics. It states that if you repeat an experiment independently a large number of times and average the result, what you obtain should be close to the expected value. There are two main versions of the law of large numbers. They are called the weak and strong laws of the large numbers. The difference between them is mostly theoretical. Here, we will discuss weak law of large numbers.</p>
 
-<p>For i.i.d. random variables X1,X2,…,Xn, the sample mean, denoted by Mn, is defined as
+<p>For i.i.d. random variables X1,X2,…,Xn with finite mean mu and variance sigma square, the sample mean, denoted by Mn, is defined as
 =(X1+X2+…+Xn)/n</p>
 
-<p><img src="/d4datascience/images/blog_wll.jpeg" alt="" title="Weak law of large numbers"></p>
+<p>The sample mean is the simplest and most natural way for trying to estimate the true mean of the population and the weak law of large numbers will provide some support to this notion.</p>
 
-<p>https://www.probabilitycourse.com/chapter7/7_1_1_law_of_large_numbers.php</p>
+<p>Lets look at some properties of sample mean below
+<img src="/d4datascience/images/blog_wll.jpeg" alt="" title="Weak law of large numbers"></p>
+
+<p>The last equation is application of The chebyshev inequality. 
+So the probability of falling far from the mean diminishes to zero as we draw more and more samples. Thats exactly what the weak law of large numbers tells us.<br>
+If we fix any particular positive epsilon constant, the probability that the sample mean falls away from the true mean by more than epsilon, that probability becomes smaller and smaller and converges to 0 as n goes to inifinity.</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
