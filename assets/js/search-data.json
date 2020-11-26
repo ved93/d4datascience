@@ -102,7 +102,7 @@
     
         ,"post9": {
             "title": "Why multi-collinearity is important?",
-            "content": "The law of large numbers has a central role in probability and statistics. There are two main versions of the law of large numbers. They are called the weak and strong laws of the large numbers. The difference between them is mostly theoretical. . For i.i.d. random variables X1,X2,…,Xn, the sample mean, denoted by Mn, is defined as =(X1+X2+…+Xn)/n . .",
+            "content": "The law of large numbers has a central role in probability and statistics. There are two main versions of the law of large numbers. They are called the weak and strong laws of the large numbers. The difference between them is mostly theoretical. . For i.i.d. random variables X1,X2,…,Xn, the sample mean, denoted by Mn, is defined as =(X1+X2+…+Xn)/n . . https://www.probabilitycourse.com/chapter7/7_1_1_law_of_large_numbers.php .",
             "url": "https://ved93.github.io/d4datascience/applied-ml/probability/maths/2020/06/23/wlln-clt.html",
             "relUrl": "/applied-ml/probability/maths/2020/06/23/wlln-clt.html",
             "date": " • Jun 23, 2020"
