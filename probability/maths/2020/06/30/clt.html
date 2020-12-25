@@ -4,17 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Some Data Musings | Some Thoughts useful to some, useless to many.</title>
+<title>What is law of large numbers? | Some Data Musings</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Some Data Musings" />
+<meta property="og:title" content="What is law of large numbers?" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Some Thoughts useful to some, useless to many." />
-<meta property="og:description" content="Some Thoughts useful to some, useless to many." />
-<link rel="canonical" href="https://ved93.github.io/d4datascience/404.html" />
-<meta property="og:url" content="https://ved93.github.io/d4datascience/404.html" />
+<meta name="description" content="Why sample mean is a good way to estimate true mean." />
+<meta property="og:description" content="Why sample mean is a good way to estimate true mean." />
+<link rel="canonical" href="https://ved93.github.io/d4datascience/probability/maths/2020/06/30/clt.html" />
+<meta property="og:url" content="https://ved93.github.io/d4datascience/probability/maths/2020/06/30/clt.html" />
 <meta property="og:site_name" content="Some Data Musings" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-30T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://ved93.github.io/d4datascience/404.html","@type":"WebPage","headline":"Some Data Musings","description":"Some Thoughts useful to some, useless to many.","@context":"https://schema.org"}</script>
+{"url":"https://ved93.github.io/d4datascience/probability/maths/2020/06/30/clt.html","@type":"BlogPosting","headline":"What is law of large numbers?","dateModified":"2020-06-30T00:00:00-05:00","datePublished":"2020-06-30T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://ved93.github.io/d4datascience/probability/maths/2020/06/30/clt.html"},"description":"Why sample mean is a good way to estimate true mean.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/d4datascience/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://ved93.github.io/d4datascience/feed.xml" title="Some Data Musings" /><link rel="shortcut icon" type="image/x-icon" href="/d4datascience/images/favicon.ico"><link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
 <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
@@ -66,26 +68,60 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="container">
-  <h1>404</h1>
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">What is law of large numbers?</h1><p class="page-description">Why sample mean is a good way to estimate true mean.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-06-30T00:00:00-05:00" itemprop="datePublished">
+        Jun 30, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
 
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/d4datascience/categories/#probability">probability</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/d4datascience/categories/#maths">maths</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+</ul><p>In the last blog post, we discussed about law of large numbers. It tells us that if you repeat an experiment independently a large number of times and average the result, then this sample mean will converge to true expected value. But it does not tell us much about the details of the distribution of sample mean. The CLT provides us exactly with this kind of details. It tells us that the sum of many independent identically distributed random variables has approximately a normal distribution.</p>
+
+<p>Let X1,X2,…,Xn be i.i.d. random variables with expected value EXi=μ&lt;∞ and variance 0&lt;Var(Xi)=σ2&lt;∞. Then, the random variable
+Zn=(X¯−μ)/(σ/√n)=(X1+X2+…+Xn−nμ)/σ√n
+converges in distribution to the standard normal random variable as n goes to infinity, that is
+limn→∞P(Zn≤x)=Φ(x), for all x∈R,
+where Φ(x) is the standard normal CDF.</p>
+
+<p>https://www.probabilitycourse.com/chapter7/7_1_2_central_limit_theorem.php</p>
+
+<p>https://www.linkedin.com/pulse/what-i-learned-from-going-50-interviews-including-google-belcak/</p>
+
+<p>References:
+<em>Business Analytics- U Dinesh Kumar</em></p>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="ved93/d4datascience"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/d4datascience/probability/maths/2020/06/30/clt.html" hidden></a>
+</article>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/d4datascience/"></data>
