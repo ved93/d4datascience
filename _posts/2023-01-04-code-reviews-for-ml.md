@@ -3,11 +3,10 @@ toc: true
 comments: true
 hide : false
 layout: post
-description: code-reviews are great way to improve the craft
+description: code-reviews are great way to improve the craft.
 categories: [programming, machine learning ]
-title: How to do better code-reviews
+title: How to do better code-reviews!
 ---
-
 
 Most data scientists work in and out with jupyter notebooks. I am not touching on why notebooks as it has extreme opinions on both sides. Engineering-centric folks prefer production code to be in scripts while data science-centric folks love their notebooks. Irrespective of contrasting opinions all agree that our code should be clean and readable. 
 A practice like code reviews serves a great purpose in achieving that. It might be daunting for someone to have their first code review and think that people are picking mistakes in their code. If you approach this way it will hamper your learning. Honestly, this is the same way when I had my first code review a few years back and felt angry for multiple revisions in the code. I was not told the importance of code review and why its important. Then I came across a tweet thread about code review and its importance. After that I used to be excited for code reviews. 
